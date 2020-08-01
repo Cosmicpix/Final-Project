@@ -1,0 +1,282 @@
+
+.ContainterNav
+{
+  display: flex;
+}
+.navbar-nav
+{
+  flex-basis: 100%;
+}
+.nav-item
+{
+text-align: center;
+flex-grow: 1;
+}
+.Container
+{
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+header section
+{
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+  margin: auto;
+  max-width: 640px;
+}
+.Button
+{
+  background-color: #008CBA;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  border-radius: 15%;
+  transition: all .2s ease-in-out;
+}
+.Button:hover
+{
+  color: white;
+  transform: scale(1.1);
+  text-decoration: none;
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+body
+{
+  background-image: url(./img/bg.jpg);
+  text-align: center;
+  margin: 0;
+  font-family: 'Raleway';
+  font-size: 16px;
+  line-height: 1.8em;
+}
+header img
+{
+border-radius: 50%;
+max-width: 150px;
+max-height: 150px;
+margin-top: 300px;;
+}
+section
+{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border-radius: 15px 15px 15px 15px;
+  background: rgba(230, 230, 230, .5);
+  margin: 1em;
+  padding: 1em;
+}
+.Container p
+{
+  opacity: 1;
+}
+.Container h1
+{
+  text-transform: uppercase;
+  margin: 1em 0;
+}
+.Container1
+{
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: column;
+  max-width: 1500px;
+}
+.Container1-item
+{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border-radius: 50px 50px 50px 50px;
+  margin-top: 30px;
+  background: rgba(230, 230, 230, .5);
+  max-width: 1000px;
+  min-height: 450px;
+  transition: all .2s ease-in-out;
+}
+.Container1-item:hover
+{
+  transform: scale(1.1);
+  background: rgba(230, 230, 230, .75);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.Container1-item1
+{
+  margin-bottom: 20px;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border-radius: 50px 50px 50px 50px;
+  margin-top: 30px;
+  background: rgba(230, 230, 230, .5);
+  max-width: 1000px;
+  min-height: 450px;
+  transition: all .2s ease-in-out;
+}
+.Container1-item1:hover
+{
+  transform: scale(1.1);
+  background: rgba(230, 230, 230, .75);
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.Container1 h1
+{
+  opacity: 1;
+  color: black;
+  margin-top: 20px;
+}
+.Container1 dt
+{
+  text-align: center;
+  font-size: 30px;
+}
+.Container1 dd
+{
+  font-size: 20px;
+}
+.Container1 p
+{
+  padding-top: 10px;
+  font-size: 30px;
+}
+footer {
+ padding: 1em 1.5em;
+ background: #A7B8BF;
+ color: white;
+ text-align: right;
+}
+.Education
+{
+  align-items: center;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  flex-direction: row;
+  max-width: 1500px;
+  justify-content: center;
+
+}
+.Education-Item
+{
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
+  border-radius: 50px 50px 50px 50px;
+  margin-top: 250px;
+  background: rgba(230, 230, 230, .5);
+  min-width: 500px;
+  min-height: 450px;
+  transition: all .2s ease-in-out;
+  margin-left: 50px;
+  margin-right: 50px;
+}
+.Education-Item:hover
+{
+    transform: scale(1.1);
+    background: rgba(230, 230, 230, .75);
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+
+}
+.school
+{
+  font-size: 20px;
+  padding-top: 50px;
+}
+.column
+{
+  margin-left: auto;
+  margin-right: auto;
+}
+@media screen and (max-width: 1000px)
+{
+  .Container1 dt
+  {
+    text-align: center;
+    font-size: 15px;
+  }
+  .Container1 dd
+  {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    font-size: 15px;
+  }
+  .Container1
+  {
+      max-width: 500px;
+  }
+  .Container1-item
+  {
+
+    min-width: 500px;
+    transition: none;
+  }
+  .Container1-item:hover
+  {
+    transform: scale(1);
+  }
+  .Container1 h1
+  {
+    font-size: 30px;
+  }
+  .Container1 .Content
+  {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    font-size: 20px;
+  }
+}
+@media screen and (max-width: 568px)
+{
+  .Container1 dt
+  {
+    text-align: center;
+    font-size: 15px;
+  }
+  .Container1 dd
+  {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    font-size: 15px;
+  }
+  .Container1
+  {
+      max-width: 500px;
+  }
+  .Container1-item
+  {
+
+    min-width: 500px;
+    transition: none;
+  }
+  .Container1-item:hover
+  {
+    transform: scale(1);
+  }
+  .Container1 h1
+  {
+    font-size: 30px;
+  }
+  .Container1 .Content
+  {
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 300px;
+    font-size: 20px;
+  }
+  .Education{
+    flex-direction: column;
+  }
+  .Education-Item
+  {
+  margin-top: 30px;
+  }
+  footer {
+  text-align: center;
+}
+}
